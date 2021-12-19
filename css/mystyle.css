@@ -1,0 +1,99 @@
+#main{
+		width:100%;
+		overflow: auto;
+	}
+	#left{
+		width:30%;
+		float:left;
+	}
+#right{
+		width:30%;
+		float:left;
+	}
+#center{
+		width:40%;
+		float:left;
+		text-align: left;
+		padding-bottom: 10px;
+}
+.buttonshape{
+		border-style: none;
+		background: #ff6666;
+		color:white;
+		font-weight: bolder;
+}
+.completebox{
+		border: 1px solid red;
+		padding: 5px;
+		font-weight: bolder;
+		margin-top: 5px;
+		margin-left: 5px; 
+		float:left;
+}
+#add{
+		border-style: none;
+		background: #ff99c2;
+		color:white;
+		font-weight: bolder;
+		font-size: 15px;
+}
+#add:hover{
+		background: #ff0066;
+}
+.vertical{
+		background: white;
+		width:80%;
+		word-wrap:break-word;
+		padding-left: 1%;	
+		border-left: 4px solid green;
+		font-weight: bolder;
+		float:left;
+		font-family: Consolas;
+}
+.example{
+		background: #e0e0d1;
+		overflow: auto;
+		border-radius: 15px;
+		padding-left:30px;
+		padding-top:5px;
+		padding-bottom:15px;
+}
+.syntax
+{
+	padding-left: 25px;
+}
+#lfirst
+{
+	position: relative;
+	left:-5%;
+}
+#submit
+{
+	font-style: verdana;
+	font-weight: bolder;
+	border-style:none;
+	color:white;
+	width:10%;
+	height:50px;
+	background: #8080ff;
+}
+#submit:hover
+{
+	background:blue;
+}
+
+#notice
+{
+	 float:left;
+	 width:20%;
+	 background:lightblue;
+	 padding-left:10px;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 border-radius:4px;
+}
+#search
+{
+	float:left;
+	width:60%;
+}
