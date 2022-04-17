@@ -40,6 +40,9 @@
          <div class="collapse navbar-collapse" style="flex-direction: row-reverse;" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
+                  <a class="nav-link" href="index.php">Made by <span style="color:#007ACC;font-weight:bold;">Fact</span><span style="color:#FFFFFF;font-weight:bold;">ance</span></a>
+                </li> 
+                <li class="nav-item">
                   <a class="nav-link" href="index.php">
                       <span class="linkedin-show">LinkedIn</span>
 
@@ -49,10 +52,7 @@
                   <a class="nav-link" href="coming.php">
                       <span class="twitter-show">Twitter</span>
                     </a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="index.php">Made by <span style="color:#007ACC;font-weight:bold;">Fact</span><span style="color:#FFFFFF;font-weight:bold;">ance</span></a>
-               </li>              
+               </li>             
             </ul>
          </div>
     </nav>
