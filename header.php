@@ -44,9 +44,8 @@
                 </li> 
                 <li class="nav-item">
                   <a class="nav-link" href="index.php">
-                      <span class="linkedin-show">LinkedIn</span>
-
-                      </a>
+                    <span class="linkedin-show">LinkedIn</span>
+                  </a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="coming.php">
