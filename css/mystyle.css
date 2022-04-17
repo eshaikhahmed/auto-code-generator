@@ -41,14 +41,14 @@
 		background: #ff0066;
 }
 .vertical{
-		background: white;
-		width:80%;
 		word-wrap:break-word;
-		padding-left: 1%;	
 		border-left: 4px solid green;
 		font-weight: bolder;
-		float:left;
 		font-family: Consolas;
+		border: 1px solid #45484B;
+		border-radius: 10px;
+		margin-bottom: 10px;
+		padding: 10px;
 }
 .example{
 		background: #e0e0d1;
@@ -96,4 +96,28 @@
 {
 	float:left;
 	width:60%;
+}
+
+.configure-section{
+	margin-top: 60px !important;
+	background-color: #F7F7F7;
+	padding: 20px 10% 20px 10%;
+	margin: 10px 15% 10px 15%;
+}
+
+.configure-fields{
+	background-color: #FFFFFF;
+	padding: 20px 10% 20px 10%;
+	margin: 10px 15% 10px 15%;
+}
+
+.code-section{
+	background-color: #F7F7F7;
+	padding: 20px 10% 20px 10%;
+	margin: 10px 15% 10px 15%;
+}
+
+body{
+	background-color: #1D2E40 !important;
+	color:white;
 }

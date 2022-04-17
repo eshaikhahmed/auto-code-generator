@@ -1,0 +1,9 @@
+package com.knowtechnical.user.UserService.repository;
+ 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface %CLASSNAME%Repository extends JpaRepository&lt;%CLASSNAME%Entity, Long&gt; {
+
+}

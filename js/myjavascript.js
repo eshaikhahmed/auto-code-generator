@@ -80,3 +80,8 @@ var rowcount=0;
 			$('#type').val(selectedvalue);
 		}
 	}
+
+	function onFeature(e) {
+		feature_nam = $('#feature_nam').val();
+		$('#feature_name').val($('#feature_nam').val());
+	}

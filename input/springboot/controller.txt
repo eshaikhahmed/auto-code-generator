@@ -1,0 +1,30 @@
+package com.knowtechnical.user.UserService.controller;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import java.util.Optional;
+import java.util.List;
+
+@RestController
+@RequestMapping("/%CLASSNAME_SMALLCASE%")
+@Slf4j
+public class %CLASSNAME%Controller {
+
+    @Autowired
+    private %CLASSNAME%Service %CLASSNAME_SMALLCASE%Service;
+
+    @PostMapping("/save")
+    public %CLASSNAME%Entity save%CLASSNAME%(@RequestBody %CLASSNAME%Entity %CLASSNAME_SMALLCASE%Request){
+        return %CLASSNAME_SMALLCASE%Service.save%CLASSNAME%(%CLASSNAME_SMALLCASE%Request);
+    }
+
+    @GetMapping("/{id}")
+    public %CLASSNAME%Entity show%CLASSNAME%(@PathVariable("id") Long Id){
+        log.info(""+Id);
+        
+        Optional&lt;%CLASSNAME%Entity&gt; %CLASSNAME_SMALLCASE% = %CLASSNAME_SMALLCASE%Service.getById(Id);
+        return %CLASSNAME_SMALLCASE%.get();
+    }
+
+}

@@ -1,0 +1,26 @@
+package com.knowtechnical.user.UserService.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Table(name="%CLASSNAME_SMALLCASE%")
+public class %CLASSNAME%Entity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
+    private Long Id;
+
+    %LOOP_START%
+    @Column(name = "%REPEAT_SAME_VALUE%")
+    private String %REPEAT_CAMELCASE_VALUE%;
+    %LOOP_END%
+
+}

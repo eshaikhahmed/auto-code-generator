@@ -39,7 +39,7 @@ function getRelatedDatatoPage($totalrow=0,$lang='',$type='')
 
 	if($lang=='Android' && $type=='Android - Complete Page')
 	{	
-		$table_namewe = "Road";
+		$table_namewe = "HomeDistanceBannerType";
 		$xml_element = '';
 		$java_model_var = '';
 		$java_model_get_set_var = '';
